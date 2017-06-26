@@ -1,5 +1,6 @@
 n=raw_input('Enter the character') 
-if (n == 'a' or n=='e' or n=='i' or n=='o' or n=='u' or n=='A' or n=='E' or n=='I' or n=='O' or n=='U'): 
+vowels = [a,e,i,o,u]
+if n.lower() in vowels: 
         print "vowel" 
 else: 
         print "consonant" 
